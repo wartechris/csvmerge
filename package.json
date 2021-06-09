@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "csvmerge",
+  "main": "./cli.js",
+  "version": "1.0.0",
+  "author": "Christian Hinz",
+  "scripts": {
+    "lint": "eslint --ext .js -f 'node_modules/eslint-friendly-formatter' ."
+  },
+  "dependencies": {
+    "cli-color": "^2.0.0",
+    "csvtojson": "^2.0.10",
+    "json2csv": "^5.0.6",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=15.0.0"
+  },
+  "engineStrict": true
+}
